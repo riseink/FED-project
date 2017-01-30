@@ -5,6 +5,9 @@
 
 .nav-container{
 	height:74px;
+	position:fixed;
+	background:$white;
+	top:0;
 	
     @include respond-to(xs) {
 		height:41px;

@@ -39,7 +39,7 @@
 	
     @include respond-to(xs) {
 	  	@include span(80/100, $offset: 1/10)/* 80% wide offset 10% */;
-		padding-top:55px;
+		padding-top:95px;
 		padding-bottom:70px;
 		letter-spacing: 0em;
 		
@@ -141,7 +141,7 @@
 	font-family: $font-primary;
 	
     @include respond-to(xs) {
-		height:365px;
+		height:365px!important;
 		
 	}
 	
@@ -191,8 +191,9 @@
 			line-height:34px;
 			font-weight:400;
 		}
+		
 		p{
-			font-size:15px;
+			font-size:15px !important;
 			line-height:24px;
 			letter-spacing: .4px;
 			
@@ -231,7 +232,6 @@
 	
     @include respond-to(sm) {
 	  	@include span(1)/* full width */;
-	  	flex:auto; 
 		
 	}
 	
