@@ -68,12 +68,12 @@
 
 .logo-container{
 	height:15px;
-	width:154px;
+	width:156px;
 	position:absolute;
 	/* center by pushing 1/2 way of layout and pulling 1/2 width of object */
 	left:50%;
-	margin-left:-77px;
-	top:25px;
+	margin-left:-78px;
+	top:27px;
 	
     @include respond-to(xs) {
 		height:12px;
